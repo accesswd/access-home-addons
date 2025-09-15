@@ -1,0 +1,17 @@
+{
+  "name": "Access Home Connect",
+  "version": "1.0.0",
+  "slug": "awd_home_connect",
+  "description": "Enables remote access to your Access Home.",
+  "arch": ["amd64", "armv7", "arm64", "aarch64"],
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "webui": "http://[HOST]:[PORT:8090]",
+  "options": {
+    "subdomain": ""
+  },
+  "schema": {
+    "subdomain": "string"
+  }
+}
