@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Access Home add-on repository
+url: 'https://github.com/accesswd/access-home-addons'
+maintainer: Access WD <info@accesswd.ca>
